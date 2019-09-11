@@ -1,8 +1,19 @@
 ### CodeBook
 
-This code book describes the variables of the data fields in the "tidy.txt"  file:
+The original data is taken from [UCI HAR Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+
+This code book describes the variables of the data fields in the "tidy.txt" file. The steps carried out to produce 
+the tidy.txt file are explained in detail in the README.md file. In summary:
+
+1. Merge the training and the test sets to create one data set.
+2. Extract only the measurements on the mean and standard deviation for each measurement.
+3. Use descriptive activity names to name the activities in the data set
+4. Appropriately label the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 #### Identifiers:
-* subject: The identificacion number of the subject
+
+* subject: The identification number of the subject
 * activity: It corresponds to the descriptive activity names based on:
 > 1 WALKING
 
@@ -17,6 +28,7 @@ This code book describes the variables of the data fields in the "tidy.txt"  fil
 > 6 LAYING
 
 #### Experimental measurements:
+
 * TimeBodyAccelerometer.mean.X              
 * TimeBodyAccelerometer.mean.Y                    
 * TimeBodyAccelerometer.mean.Z                 
@@ -103,3 +115,13 @@ This code book describes the variables of the data fields in the "tidy.txt"  fil
 * FrequencyBodyAccelerometerJerkMagnitude.std     
 * FrequencyBodyGyroscopeMagnitude.std             
 * FrequencyBodyGyroscopeJerkMagnitude.std
+
+The orginal variables names were modified in order to use descriptive variable names:
+
+- mean refers that the measurement is a mean in the original dataset and std indicates that the measuremen
+is a standard deviation in the original dataset.
+
+- X,Y,Z indicates that measurement was taken along the "X","Y","Z"" dimension of the phone, respectively.
+
+
+
