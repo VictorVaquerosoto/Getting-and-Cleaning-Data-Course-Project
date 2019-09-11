@@ -118,12 +118,12 @@ Description of the variables:
 * FrequencyBodyGyroscopeMagnitude.std             
 * FrequencyBodyGyroscopeJerkMagnitude.std
 
-The orginal variables names were modified in order to use descriptive variable names:
+The original variables names were modified in order to use descriptive variable names:
 
 - mean refers that the measurement is a mean in the original dataset and std indicates that the measuremen
 is a standard deviation in the original dataset.
 
-- X,Y,Z indicates that measurement was taken along the "X","Y","Z"" dimension of the phone, respectively.
+- X,Y,Z indicates that measurement was taken along the "X","Y","Z" dimension of the phone, respectively.
 
 
 
